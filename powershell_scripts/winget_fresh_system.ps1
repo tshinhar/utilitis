@@ -24,4 +24,4 @@ winget install -e --id Mozilla.Firefox.DeveloperEdition;
 winget install -e --id TechPowerUp.GPU-Z;
 winget install -e --id REALiX.HWiNFO;
 winget install -e --id Mozilla.Firefox.DeveloperEdition;
-winget upgrade --all
+winget upgrade --all;
