@@ -8,8 +8,8 @@ merger = PdfMerger()
 # Ask the user for the directory containing the PDF files
 directory = input("Enter the directory containing the PDF files: ")
 
-# Get a list of all the PDF files in the directory
-pdf_files = [f for f in os.listdir(directory) if f.endswith(".pdf")]
+# Get a sorted list of all the PDF files in the directory
+pdf_files = sorted([f for f in os.listdir(directory) if f.endswith(".pdf")])
 
 # Add each PDF file to the merger
 for pdf in pdf_files:
