@@ -1,9 +1,9 @@
 # Import the required modules
 import os
-from PyPDF2 import PdfFileMerger
+from PyPDF2 import PdfMerger
 
-# Create a PdfFileMerger object
-merger = PdfFileMerger()
+# Create a PdfMerger object
+merger = PdfMerger()
 
 # Ask the user for the directory containing the PDF files
 directory = input("Enter the directory containing the PDF files: ")
